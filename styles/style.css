@@ -1,6 +1,10 @@
 /* font-family: 'Josefin Sans', sans-serif;
 font-family: 'Oxygen', sans-serif; */
 
+body {
+  text-align: center;
+}
+
 h1 {
   font-family: "Josefin Sans", sans-serif;
 }
