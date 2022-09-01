@@ -17,6 +17,12 @@ h2,
 p {
   font-family: var(--main-font);
   color: var(--dark-color);
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 64px;
 }
 
 .hero {
@@ -36,10 +42,8 @@ p {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 52px;
-  }
+.hobby {
+  padding: 60px 60px;
 }
 
 .hero h2 {
@@ -55,4 +59,43 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+@media (max-width: 1400px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  .hobby {
+    padding: 10px 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hobby-pic {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 52px;
+  }
+
+  .hero p {
+    font-size: 26px;
+  }
+
+  .hero {
+    padding: 60px 10px;
+  }
 }
