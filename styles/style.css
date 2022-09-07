@@ -25,10 +25,14 @@ h2 {
   font-size: 64px;
 }
 
+img {
+  border-radius: 10px;
+}
+
 .hero {
   background-color: var(--light-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 160px 20px 200px;
 }
 
 .hero p {
@@ -70,6 +74,33 @@ h2 {
   padding: 15px 30px;
 }
 
+.about-page {
+  padding: 160px 20px;
+}
+
+.about-page h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.about-page h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-page p {
+  font-size: 16px;
+}
+
+.about-page-content {
+  margin: 30px;
+}
+
+.about-page-photo {
+  margin-top: 35px;
+}
+
 @media (max-width: 1400px) {
   h2 {
     font-size: 30px;
@@ -78,11 +109,33 @@ h2 {
   .hobby {
     padding: 10px 60px;
   }
+
+  .about-page {
+    padding-top: 100px;
+  }
+
+  .about-page-photo {
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 992px) {
   .hobby-pic {
     margin-top: 80px;
+  }
+
+  .about-page-photo {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-page-photo {
+    margin-top: 120px;
+  }
+
+  .about-page {
+    padding-top: 40px;
   }
 }
 
@@ -97,5 +150,10 @@ h2 {
 
   .hero {
     padding: 60px 10px;
+  }
+
+  .about-page {
+    text-align: center;
+    padding: 0;
   }
 }
