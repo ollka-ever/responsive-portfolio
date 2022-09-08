@@ -107,6 +107,38 @@ img {
   line-height: 1.5;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  font-family: var(--main-font);
+  margin-left: 15px;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--main-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: all 100ms ease-in-out;
+}
+
+.logo {
+  max-width: 80px;
+}
+
 @media (max-width: 1400px) {
   h2 {
     font-size: 30px;
@@ -171,5 +203,16 @@ img {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+}
+
+@media (max-width: 368px) {
+  .logo {
+    max-width: 60px;
+  }
+
+  nav li {
+    margin-left: 10px;
+    font-size: 12px;
   }
 }
